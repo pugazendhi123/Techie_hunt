@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techie Hunt - Welcome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: url('Banner1.png') no-repeat center center/cover;
+            color: #ff007f;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3rem;
+            text-shadow: 0 0 10px #ff007f;
+        }
+        .glow {
+            animation: glow 1.5s infinite alternate;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: #ff99cc;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f; }
+            to { text-shadow: 0 0 20px #ff007f, 0 0 40px #ff007f; }
+        }
+    </style>
+</head>
+<body>
+      
+    <!-- Hidden password -->
+    <script>
+        console.log("Next folder password: hunt");
+    </script>
+</body>
+</html>
